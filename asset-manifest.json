@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e2311227.css",
-    "main.js": "/static/js/main.f9222e30.js",
+    "main.js": "/static/js/main.a74fff60.js",
     "static/media/reliablyme.png": "/static/media/reliablyme.d01477221d0fc6649fee.png",
     "static/media/Weather_app.png": "/static/media/Weather_app.1da15d8104fe6d1d89a7.png",
     "static/media/doante4needy.png": "/static/media/doante4needy.c4a3c1ba400949c59289.png",
@@ -10,10 +10,10 @@
     "static/media/iitk (2).png": "/static/media/iitk (2).88ad184d66af965eba7d.png",
     "index.html": "/index.html",
     "main.e2311227.css.map": "/static/css/main.e2311227.css.map",
-    "main.f9222e30.js.map": "/static/js/main.f9222e30.js.map"
+    "main.a74fff60.js.map": "/static/js/main.a74fff60.js.map"
   },
   "entrypoints": [
     "static/css/main.e2311227.css",
-    "static/js/main.f9222e30.js"
+    "static/js/main.a74fff60.js"
   ]
 }
