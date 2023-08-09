@@ -33,7 +33,7 @@ const About = () => {
               className="group text-cyan-800 px-6 py-3 flex items-center rounded-md bg-white cursor-pointer"
               style={{ width: '200px', height: '40px' }}
             >
-              See My Work
+              See My Work <br /> <br />
               <span className="group-hover:rotate-90 duration-300">
                 {/* Arrow icon */}
               </span>
