@@ -10,13 +10,13 @@ const About = () => {
       id="about"
       className="w-full bg-[#ffffff] text-gray-300"
     >
-      <div className="flex flex-col justify-center items-center w-full h-full py-8 md:py-16">
+      <div className="flex flex-col justify-center items-center w-full h-full py-8 md:py-12">
         <div className="bg-cyan-800 rounded-md max-w-[1200px] flex flex-col items-center md:flex-row  px-4 cd:px-7 py-10 ">
-          <div className="md:w-1/2 md:pr-4 md:p-12">
+          <div className="md:w-1/2 md:pr-4 md:p-14">
             <p className="text-4xl text-center md:text-left font-bold border-b-4 border-cyan-500">
               More About Me <br />
             </p>
-            <p className="mt-0 md:mt-10">
+            <p className="mt-4 md:mt-10">
             Welcome to my digital space, where the joy of learning and creating come together. Since I was young, I've loved exploring new things, whether it was building robots or getting lost in the world of painting, igniting a lifelong passion for acquiring new skills. <br /> <br />
             My adventure in technology began with robotics classes, where I learned to build robots and make them work by coding. Over time, I got really good at it and even took part in big competitions like the World Robot Olympiad, First Lego League and Robotex. <br /> <br />
             When I got to high school, I got curious about coding. I enjoy making things, so programming seemed like the perfect fit for me. It's like adding a superpower to my creative toolkit. <br /> <br />
@@ -33,13 +33,13 @@ const About = () => {
               className="group text-cyan-800 px-6 py-3 flex items-center rounded-md bg-white cursor-pointer"
               style={{ width: '200px', height: '40px' }}
             >
-              See My Work <br /> <br />
+              See My Work 
               <span className="group-hover:rotate-90 duration-300">
                 {/* Arrow icon */}
               </span>
             </Link>
           </div>
-          <div className="md:w-1/2 mx-auto mt-0 md:mt-0">
+          <div className="md:w-1/2 mx-auto mt-4 md:mt-0">
             <img
               src={me}  
               alt="my profile"
