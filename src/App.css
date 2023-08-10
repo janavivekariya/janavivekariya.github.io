@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -12,6 +12,18 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+.home-content {
+  text-align: left; /* Align the content to the left */
+}
+
+// Adjust the breakpoint to match your design and responsiveness needs
+@media (max-width: 768px) {
+  .flex-center-mobile {
+    justify-content: flex-start; /* Align to the left on mobile */
+  }
+}
+
 
 .App-header {
   background-color: #282c34;

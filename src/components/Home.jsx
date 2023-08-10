@@ -3,14 +3,17 @@ import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
-    <div name="home" className="h-screen w-full bg-[#ffffff]  pt-[120px] md:pt-0">
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-cyan-800 mb-4">
-            Hi, I'm Janavi
-          </h2>
-          <div className="flex items-center mb-6">
-            <p className="text-4xl sm:text-3xl  text-gray-500 mb-4">
+    <div name="home" className="h-screen w-full bg-[#ffffff] flex items-center">
+      <div className="max-w-screen-lg mx-auto p-4 md:flex-row ">
+        <div className="flex flex-col md:items-start">
+          <div className="text-left mb-6">
+            <h2 className="text-3xl sm:text-5xl md:text-7xl font-bold text-cyan-800 mb-4">
+              Hi, I'm Janavi
+            </h2>
+          </div>
+
+          <div className="text-left mb-6">
+            <p className="text-xl sm:text-2xl md:text-3xl text-gray-500 mb-4">
               I'm studying <span className="font-bold">Computer Science</span> at the{" "}
               <span className="font-bold">University of Waterloo </span> <br /> <br />
               recently, I have worked as a <strong>Software Engineering Intern</strong> at ReliablyMe, implementing an AI chatbot
