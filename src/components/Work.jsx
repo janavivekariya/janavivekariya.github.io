@@ -1,12 +1,10 @@
 import React from 'react';
-//import code from '../assets/code2.png';
 import work1 from '../assets/reliablyme.png';
 import work2 from '../assets/bookpedia.png';
 import work3 from '../assets/Weather_app.png';
 import work4 from '../assets/doante4needy.png';
-import work5 from '../assets/crestt.png'
-import work6 from '../assets/iitk (2).png'
-
+import work5 from '../assets/crestt.png';
+import work6 from '../assets/code2.png';
 
 const Works = () => {
   return (
@@ -20,16 +18,11 @@ const Works = () => {
         <p className='py-6 text-2xl'>Check out some of my most recent work</p>
         {/* Container */}
         <div className='grid grid-cols-1 gap-10 md:pr'>
-
-          
           {/* Grid Item 1 */}
-          <div className='shadow-lg shadow-[#040c16] container rounded-md flex mx-auto'>
-            {/* Image */}
-            <div className='w-1/2 h-64 bg-cover bg-center' style={{ backgroundImage: `url(${work1})` }}></div>
-            {/* Text */}
-            <div className='w-1/2 p-4 cursor-default'>
+          <div className='shadow-lg shadow-[#040c16] container rounded-md flex mx-auto flex-col md:flex-row-reverse md:items-center'>
+            <div className='w-full md:w-1/2 p-4 cursor-default'>
               <span className='text-lg font-bold text-cyan-800 tracking-wider'>
-              Software Engineering Intern at ReliablyMe
+                Software Engineering Intern at ReliablyMe
               </span>
               <p className='text-cyan-800'>
                 <ul  className='list-disc pl-4 py-2'>
@@ -46,14 +39,16 @@ const Works = () => {
                 </a>
               </div>
             </div>
+            <div
+              className='w-full h-64 md:w-1/2 bg-cover bg-center'
+              style={{ backgroundImage: `url(${work1})` }}
+            ></div>
           </div>
-          {/* ... (other grid items) ... */}
           {/* Grid Item 2 */}
-          <div className='shadow-lg shadow-[#040c16] container rounded-md flex mx-auto'>
-            {/* Text */}
-            <div className='w-1/2 p-4 cursor-default'>
+          <div className='shadow-lg shadow-[#040c16] container rounded-md flex mx-auto flex-col md:flex-row-reverse md:items-center'>
+            <div className='w-full md:w-1/2 p-4 cursor-default'>
               <span className='text-lg font-bold text-cyan-800 tracking-wider'>
-              Bookpedia
+                Bookpedia
               </span>
               <p className='text-cyan-800'>
                 <ul className='list-disc pl-4 py-2'>
@@ -72,15 +67,14 @@ through RESTful APIs.</li>
                 </a>
               </div>
             </div>
-             {/* Image */}
-             <div className='w-1/2 h-64 bg-cover bg-center' style={{ backgroundImage: `url(${work2})` }}></div>
+            <div
+              className='w-full h-64 md:w-1/2 bg-cover bg-center'
+              style={{ backgroundImage: `url(${work2})` }}
+            ></div>
           </div>
           {/* Grid Item 3 */}
-          <div className='shadow-lg shadow-[#040c16] container rounded-md flex mx-auto'>
-            {/* Image */}
-            <div className='w-1/2 h-64 bg-cover bg-center' style={{ backgroundImage: `url(${work3})` }}></div>
-            {/* Text */}
-            <div className='w-1/2 p-4 cursor-default'>
+          <div className='shadow-lg shadow-[#040c16] container rounded-md flex mx-auto flex-col md:flex-row-reverse md:items-center'>
+            <div className='w-full md:w-1/2 p-4 cursor-default'>
               <span className='text-lg font-bold text-cyan-800 tracking-wider'>
                 WeatherPlan
               </span>
@@ -103,14 +97,18 @@ server to generate the necessary checklist items
                   </button>
                 </a>
               </div>
-            </div>
+
+              </div>
+            <div
+              className='w-full h-64 md:w-1/2 bg-cover bg-center'
+              style={{ backgroundImage: `url(${work3})` }}
+            ></div>
           </div>
           {/* Grid Item 4 */}
-          <div className='shadow-lg shadow-[#040c16] container rounded-md flex mx-auto'>
-            {/* Text */}
-            <div className='w-1/2 p-4 cursor-default'>
+          <div className='shadow-lg shadow-[#040c16] container rounded-md flex mx-auto flex-col md:flex-row-reverse md:items-center'>
+            <div className='w-full md:w-1/2 p-4 cursor-default'>
               <span className='text-lg font-bold text-cyan-800 tracking-wider'>
-                Founder at Donate4Needy
+              Founder at Donate4Needy
               </span>
               <p className='text-cyan-800'>
                 <ul className='list-disc pl-4 py-2'>
@@ -131,18 +129,18 @@ girls with basic python bootcamps
                   </button>
                 </a>
               </div>
-            </div>
-             {/* Image */}
-             <div className='w-1/2 h-64 bg-cover bg-center' style={{ backgroundImage: `url(${work4})` }}></div>
+
+              </div>
+            <div
+              className='w-full h-64 md:w-1/2 bg-cover bg-center'
+              style={{ backgroundImage: `url(${work4})` }}
+            ></div>
           </div>
           {/* Grid Item 5 */}
-          <div className='shadow-lg shadow-[#040c16]  container rounded-md flex mx-auto'>
-            {/* Image */}
-            <div className='w-1/2 h-64 bg-cover bg-center' style={{ backgroundImage: `url(${work5})` }}></div>
-            {/* Text */}
-            <div className='w-1/2 p-4 cursor-default'>
+          <div className='shadow-lg shadow-[#040c16] container rounded-md flex mx-auto flex-col md:flex-row-reverse md:items-center'>
+            <div className='w-full md:w-1/2 p-4 cursor-default'>
               <span className='text-lg font-bold text-cyan-800 tracking-wider'>
-                Intern at Crestt
+              Intern at Crestt
               </span>
               <p className='text-cyan-800'>
                 <ul className='list-disc pl-4 py-2'>
@@ -161,13 +159,18 @@ Extensions
                     View
                   </button>
                 </a>
+
               </div>
-            </div>
+
+              </div>
+            <div
+              className='w-full h-64 md:w-1/2 bg-cover bg-center'
+              style={{ backgroundImage: `url(${work5})` }}
+            ></div>
           </div>
           {/* Grid Item 6 */}
-          <div className='shadow-lg shadow-[#040c16] container rounded-md flex mx-auto'>
-            {/* Text */}
-            <div className='w-1/2 p-4 cursor-default'>
+          <div className='shadow-lg shadow-[#040c16] container rounded-md flex mx-auto flex-col md:flex-row-reverse md:items-center'>
+            <div className='w-full md:w-1/2 p-4 cursor-default'>
               <span className='text-lg font-bold text-cyan-800 tracking-wider'>
               Indian Institute of Technology Training and Internship Program
               </span>
@@ -188,10 +191,14 @@ practical experience and knowledge of industry-standard tools and techniques
                     View
                   </button>
                 </a>
+
               </div>
-            </div>
-             {/* Image */}
-             <div className='w-1/2 h-64 bg-cover bg-center' style={{ backgroundImage: `url(${work6})` }}></div>
+
+              </div>
+            <div
+              className='w-full h-64 md:w-1/2 bg-cover bg-center'
+              style={{ backgroundImage: `url(${work6})` }}
+            ></div>
           </div>
         </div>
       </div>
